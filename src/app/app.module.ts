@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CutTextPipe } from './cut-text.pipe';
+import { DoubleNumbersPipe } from './double-numbers.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CutTextPipe,
+    DoubleNumbersPipe
   ],
   imports: [
     BrowserModule,
